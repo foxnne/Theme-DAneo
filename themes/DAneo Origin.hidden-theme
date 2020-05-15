@@ -2,6 +2,10 @@
 	"extends": "DAneo Base.hidden-theme",
 	"variables": {
 
+		"bg": "#2A2C36",
+		"bg_dark": "#272830",
+
+
 	////// Button Controls ///////////////////////////////////////////////////////
 
 		"button_icon_tint-selected-dark": "var(accent)",
@@ -13,11 +17,11 @@
 
 	////// Side Bar //////////////////////////////////////////////////////////////
 
-		"sidebar_bg-normal-dark": "color(black blend(var(bg) 5%))",
-		"sidebar_bg-normal-light": "color(black blend(var(bg) 5%))",
+		"sidebar_bg-normal-dark": "var(bg)",
+		"sidebar_bg-normal-light": "var(bg)",
 
-		"sidebar_bc-dark": "color(white blend(var(sidebar_bg-normal-dark) 3%))",
-		"sidebar_bc-light": "color(black blend(var(sidebar_bg-normal-light) 5%))",
+		"sidebar_bc-dark": "var(bg)",
+		"sidebar_bc-light": "var(bg)",
 
 		"sidebar_folder_icon_tint-expanded-dark": "var(accent)",
 		"sidebar_folder_icon_tint-expanded-light": "var(accent)",
@@ -50,8 +54,8 @@
 
 	////// Panel Controls ////////////////////////////////////////////////////////
 
-		"panel_bg-dark": "color(black blend(var(bg) 5%))",
-		"panel_bg-light": "color(black blend(var(bg) 7.5%))",
+		"panel_bg-dark": "var(bg)",
+		"panel_bg-light": "var(bg)",
 
 		"panel_input_bc-dark": "color(white alpha(5%))",
 		"panel_input_bc-light": "color(black alpha(10%))",
@@ -61,16 +65,16 @@
 
 	////// Status Bar ////////////////////////////////////////////////////////////
 
-		"statusbar_bg-dark": "color(black blend(var(bg) 5%))",
-		"statusbar_bg-light": "color(black blend(var(bg) 7.5%))",
+		"statusbar_bg-dark": "var(bg)",
+		"statusbar_bg-light": "var(bg)",
 
 		"statusbar_bc-dark": "var(sidebar_bc-dark)",
 		"statusbar_bc-light": "var(sidebar_bc-light)",
 
 	////// Dialogs ///////////////////////////////////////////////////////////////
 
-		"dialog_bg-dark":  "color(black blend(var(bg) 5%))",
-		"dialog_bg-light": "color(black blend(var(bg) 7.5%))"
+		"dialog_bg-dark":  "var(bg)",
+		"dialog_bg-light": "var(bg)"
 
 	},
 	"rules": [

@@ -2,6 +2,9 @@
 	"extends": "DAneo Base.hidden-theme",
 	"variables": {
 
+		"bg": "#2A2C36",
+		"bg_dark": "#272830",
+
 	////// Tabs //////////////////////////////////////////////////////////////////
 
 		"tabset_bg-dark": "var(sidebar_bg-normal-dark)",
@@ -9,19 +12,19 @@
 
 	////// Overlay Controls //////////////////////////////////////////////////////
 
-		"overlay_bg-dark": "color(black blend(var(bg) 15%))",
-		"overlay_bg-light": "color(black blend(var(bg) 7.5%))",
+		"overlay_bg-dark": "var(bg)",
+		"overlay_bg-light": "var(bg)",
 
-		"overlay_input_tint-dark": "color(black alpha(15%))",
-		"overlay_input_tint-light": "color(black alpha(7.5%))",
+		"overlay_input_tint-dark": "var(bg)",
+		"overlay_input_tint-light": "var(bg)",
 
 	////// Panel Control /////////////////////////////////////////////////////////
 
-		"panel_bg-dark": "color(black blend(var(bg) 20%))",
-		"panel_bg-light": "color(black blend(var(bg) 10%))",
+		"panel_bg-dark": "var(bg_dark)",
+		"panel_bg-light": "var(bg)",
 
-		"panel_input_tint-dark": "color(black alpha(20%))",
-		"panel_input_tint-light": "color(black alpha(10%))"
+		"panel_input_tint-dark": "var(bg_dark)",
+		"panel_input_tint-light": "var(bg)"
 	},
 
 	"rules": [

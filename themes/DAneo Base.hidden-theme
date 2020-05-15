@@ -536,8 +536,8 @@
 		"statusbar_font_face": "var(font_face)",
 		"statusbar_font_size": "var(font_size)",
 
-		"statusbar_bg-dark": "color(black blend(var(bg) 20%))",
-		"statusbar_bg-light": "color(black blend(var(bg) 10%))",
+		"statusbar_bg-dark": "var(bg)",
+		"statusbar_bg-light": "var(bg)",
 
 		"statusbar_label_fg-normal-dark": "var(label_fg-normal-dark)",
 		"statusbar_label_fg-normal-light": "var(label_fg-normal-light)",
