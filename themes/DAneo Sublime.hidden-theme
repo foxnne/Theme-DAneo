@@ -34,7 +34,7 @@
 
 		{
 			"class": "text_line_control",
-			"layer0.texture": "Theme - DAneo/textures/inputs/input--bw0--br0.png"
+			"layer0.texture": "feppz!/UITheme/textures/inputs/input--bw0--br0.png"
 		},
 
 	////// Tabs //////////////////////////////////////////////////////////////////
@@ -44,9 +44,9 @@
 		{
 			"class": "tab_control",
 			"layer0.inner_margin": [16, 4],
-			"layer0.texture": "Theme - DAneo/textures/tabs/tab--sublime--mb0--bw0.png",
+			"layer0.texture": "feppz!/UITheme/textures/tabs/tab--sublime--mb0--bw0.png",
 			"layer1.inner_margin": [16, 4],
-			"layer1.texture": "Theme - DAneo/textures/tabs/tab--sublime--mb1--bw1.png"
+			"layer1.texture": "feppz!/UITheme/textures/tabs/tab--sublime--mb1--bw1.png"
 		},
 
 		// Tab Control (Modified)
@@ -55,7 +55,7 @@
 			"class": "tab_control",
 			"settings": ["highlight_modified_tabs"],
 			"layer3.inner_margin": [16, 4],
-			"layer3.texture": "Theme - DAneo/textures/tabs/tab--sublime--overlined--mb0--bw1.png"
+			"layer3.texture": "feppz!/UITheme/textures/tabs/tab--sublime--overlined--mb0--bw1.png"
 		},
 
 	////// Overlay Controls //////////////////////////////////////////////////////
@@ -63,7 +63,7 @@
 		{
 			"class": "overlay_control",
 			"content_margin": [23, 18, 23, 33],
-			"layer1.texture": "Theme - DAneo/textures/overlay/overlay--mt10--bw0--br0.png"
+			"layer1.texture": "feppz!/UITheme/textures/overlay/overlay--mt10--bw0--br0.png"
 		}
 	]
 }

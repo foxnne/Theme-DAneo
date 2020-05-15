@@ -87,7 +87,7 @@
 			"class": "text_line_control",
 			"content_margin": [8, 6],
 			"layer0.inner_margin": 6,
-			"layer0.texture": "Theme - DAneo/textures/inputs/input--bw0--br2.png",
+			"layer0.texture": "feppz!/UITheme/textures/inputs/input--bw0--br2.png",
 			"layer0.tint": "var(bg)",
 			"layer0.opacity": 1.0
 		},
@@ -131,9 +131,9 @@
 			"content_margin": [24, 8, 20, 9],
 			"max_margin_trim": 11,
 			"layer0.inner_margin": [23, 4],
-			"layer0.texture": "Theme - DAneo/textures/tabs/tab--classic--mb0--bw0.png",
+			"layer0.texture": "feppz!/UITheme/textures/tabs/tab--classic--mb0--bw0.png",
 			"layer1.inner_margin": [23, 4],
-			"layer1.texture": "Theme - DAneo/textures/tabs/tab--classic--mb1--bw1.png",
+			"layer1.texture": "feppz!/UITheme/textures/tabs/tab--classic--mb1--bw1.png",
 			"layer1.tint": "color(black blend(var(tabset_bg-dark) 20%))",
 			"layer1.opacity": 0.2
 		},
@@ -160,7 +160,7 @@
 			"class": "tab_control",
 			"settings": ["highlight_modified_tabs"],
 			"layer3.inner_margin": [23, 4],
-			"layer3.texture": "Theme - DAneo/textures/tabs/tab--classic--overlined--mb0--bw1.png"
+			"layer3.texture": "feppz!/UITheme/textures/tabs/tab--classic--overlined--mb0--bw1.png"
 		},
 
 	////// Overlay Controls //////////////////////////////////////////////////////
@@ -168,7 +168,7 @@
 		{
 			"class": "overlay_control",
 			"content_margin": [23, 18, 23, 33],
-			"layer1.texture": "Theme - DAneo/textures/overlay/overlay--mt10--bw0--br4.png"
+			"layer1.texture": "feppz!/UITheme/textures/overlay/overlay--mt10--bw0--br4.png"
 		},
 
 		// Quick Panels
@@ -244,14 +244,14 @@
 			"content_margin": 8,
 			// background & hover
 			"layer0.inner_margin": 6,
-			"layer0.texture": "Theme - DAneo/textures/inputs/input--bw0--br0.png",
+			"layer0.texture": "feppz!/UITheme/textures/inputs/input--bw0--br0.png",
 			"layer0.tint": "rgba(255, 255, 255, 0.075)",
 			"layer0.opacity": {
 				"target": 0.5, "speed": 2.25, "interpolation": "smoothstep"
 			},
 			// selection
 			"layer2.inner_margin": 6,
-			"layer2.texture": "Theme - DAneo/textures/inputs/input--bw0--br0.png",
+			"layer2.texture": "feppz!/UITheme/textures/inputs/input--bw0--br0.png",
 			"layer2.tint": "rgba(255, 255, 255, 0.05)",
 			"layer2.opacity": {
 				"target": 0.0, "speed": 4.5, "interpolation": "smoothstep"
@@ -260,20 +260,20 @@
 		{
 			"class": "icon_button_control",
 			"attributes": ["left"],
-			"layer0.texture": "Theme - DAneo/textures/inputs/input--bw0--br2--left.png",
-			"layer2.texture": "Theme - DAneo/textures/inputs/input--bw0--br2--left.png"
+			"layer0.texture": "feppz!/UITheme/textures/inputs/input--bw0--br2--left.png",
+			"layer2.texture": "feppz!/UITheme/textures/inputs/input--bw0--br2--left.png"
 		},
 		{
 			"class": "icon_button_control",
 			"attributes": ["right"],
-			"layer0.texture": "Theme - DAneo/textures/inputs/input--bw0--br2--right.png",
-			"layer2.texture": "Theme - DAneo/textures/inputs/input--bw0--br2--right.png"
+			"layer0.texture": "feppz!/UITheme/textures/inputs/input--bw0--br2--right.png",
+			"layer2.texture": "feppz!/UITheme/textures/inputs/input--bw0--br2--right.png"
 		},
 		{
 			"class": "icon_button_control",
 			"attributes": ["left", "right"],
-			"layer0.texture": "Theme - DAneo/textures/inputs/input--bw0--br2.png",
-			"layer2.texture": "Theme - DAneo/textures/inputs/input--bw0--br2.png"
+			"layer0.texture": "feppz!/UITheme/textures/inputs/input--bw0--br2.png",
+			"layer2.texture": "feppz!/UITheme/textures/inputs/input--bw0--br2.png"
 		},
 		{
 			"class": "icon_button_control",

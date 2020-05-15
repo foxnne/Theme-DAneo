@@ -86,12 +86,12 @@
 		{
 			"class": "scroll_track_control",
 			"attributes": ["!horizontal"],
-			"layer0.texture": "Theme - DAneo/textures/scrollbars/scroll--w6--vertical--square.png"
+			"layer0.texture": "feppz!/UITheme/textures/scrollbars/scroll--w6--vertical--square.png"
 		},
 		{
 			"class": "scroll_track_control",
 			"attributes": ["horizontal"],
-			"layer0.texture": "Theme - DAneo/textures/scrollbars/scroll--w6--horizontal--square.png"
+			"layer0.texture": "feppz!/UITheme/textures/scrollbars/scroll--w6--horizontal--square.png"
 		},
 
 		// Scroll Puck
@@ -99,12 +99,12 @@
 		{
 			"class": "puck_control",
 			"attributes": ["!horizontal"],
-			"layer0.texture": "Theme - DAneo/textures/scrollbars/scroll--w6--vertical--square.png"
+			"layer0.texture": "feppz!/UITheme/textures/scrollbars/scroll--w6--vertical--square.png"
 		},
 		{
 			"class": "puck_control",
 			"attributes": ["horizontal"],
-			"layer0.texture": "Theme - DAneo/textures/scrollbars/scroll--w6--horizontal--square.png"
+			"layer0.texture": "feppz!/UITheme/textures/scrollbars/scroll--w6--horizontal--square.png"
 		},
 
 	////// Side Bar //////////////////////////////////////////////////////////////

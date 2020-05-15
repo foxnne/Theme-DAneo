@@ -1040,7 +1040,7 @@
 			"content_margin": 8,
 			"min_size": [80, 0],
 			"layer0.inner_margin": 6,
-			"layer0.texture": "Theme - DAneo/textures/inputs/input--bw0--br2.png",
+			"layer0.texture": "feppz!/UITheme/textures/inputs/input--bw0--br2.png",
 			"layer0.tint": "rgba(255, 255, 255, 0.1)",
 			"layer0.opacity": {
 				"target": 0.5, "speed": 2.25, "interpolation": "smoothstep"
@@ -1142,7 +1142,7 @@
 		{
 			"class": "dropdown_button_control",
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/dropdown_button.png",
+			"layer0.texture": "feppz!/UITheme/icons/dropdown_button.png",
 			"layer0.tint": "var(button_icon_tint-normal-dark)",
 			"layer0.opacity": "var(button_icon_opacity-normal)"
 		},
@@ -1306,7 +1306,7 @@
 			"attributes": ["!horizontal"],
 			"content_margin": 3,
 			"layer0.inner_margin": 3,
-			"layer0.texture": "Theme - DAneo/textures/scrollbars/scroll--w6--vertical--rounded.png",
+			"layer0.texture": "feppz!/UITheme/textures/scrollbars/scroll--w6--vertical--rounded.png",
 			"layer0.opacity": 1.0
 		},
 		{
@@ -1314,7 +1314,7 @@
 			"attributes": ["horizontal"],
 			"content_margin": 3,
 			"layer0.inner_margin": 3,
-			"layer0.texture": "Theme - DAneo/textures/scrollbars/scroll--w6--horizontal--rounded.png",
+			"layer0.texture": "feppz!/UITheme/textures/scrollbars/scroll--w6--horizontal--rounded.png",
 			"layer0.opacity": 1.0
 		},
 		{
@@ -1335,7 +1335,7 @@
 			"attributes": ["!horizontal"],
 			"content_margin": [0, 12],
 			"layer0.inner_margin": 3,
-			"layer0.texture": "Theme - DAneo/textures/scrollbars/scroll--w6--vertical--rounded.png",
+			"layer0.texture": "feppz!/UITheme/textures/scrollbars/scroll--w6--vertical--rounded.png",
 			"layer0.opacity": 1.0
 		},
 		{
@@ -1343,7 +1343,7 @@
 			"attributes": ["horizontal"],
 			"content_margin": [12, 0],
 			"layer0.inner_margin": 3,
-			"layer0.texture": "Theme - DAneo/textures/scrollbars/scroll--w6--horizontal--rounded.png",
+			"layer0.texture": "feppz!/UITheme/textures/scrollbars/scroll--w6--horizontal--rounded.png",
 			"layer0.opacity": 1.0
 		},
 		{
@@ -2378,7 +2378,7 @@
 		{
 			"class": "close_button",
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/close.png",
+			"layer0.texture": "feppz!/UITheme/icons/close.png",
 			"layer0.tint": "var(button_icon_tint-normal-dark)",
 			"layer0.opacity": 0.0
 		},
@@ -2405,7 +2405,7 @@
 		{
 			"class": "close_button",
 			"attributes": ["dirty"],
-			"layer0.texture": "Theme - DAneo/icons/dirty.png",
+			"layer0.texture": "feppz!/UITheme/icons/dirty.png",
 			"layer0.opacity": "var(sidebar_icon_opacity-normal)"
 		},
 
@@ -2414,7 +2414,7 @@
 		{
 			"class": "close_button",
 			"attributes": ["hover"],
-			"layer0.texture": "Theme - DAneo/icons/close.png",
+			"layer0.texture": "feppz!/UITheme/icons/close.png",
 			"layer0.tint": "var(button_icon_tint-hover-dark)",
 			"layer0.opacity": "var(sidebar_icon_opacity-hover)"
 		},
@@ -2505,7 +2505,7 @@
 			"class": "disclosure_button_control",
 			"settings": ["show_disclosure_buttons", "!align_disclosure_buttons"],
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/disclosure_collapsed.png",
+			"layer0.texture": "feppz!/UITheme/icons/disclosure_collapsed.png",
 			"layer0.tint": "var(disclosure_fg-collapsed-normal-dark)",
 			"layer0.opacity": "var(sidebar_icon_opacity-normal)"
 		},
@@ -2614,7 +2614,7 @@
 			"parents": [
 				{"class": "tree_row", "attributes": ["expanded"]}
 			],
-			"layer0.texture": "Theme - DAneo/icons/disclosure_expanded.png",
+			"layer0.texture": "feppz!/UITheme/icons/disclosure_expanded.png",
 			"layer0.tint": "var(disclosure_fg-expanded-normal-dark)",
 			"layer0.opacity": "var(sidebar_icon_opacity-normal)"
 		},
@@ -2745,7 +2745,7 @@
 				{"class": "tree_row", "attributes": ["!expanded"]}
 			],
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/folder_closed.png",
+			"layer0.texture": "feppz!/UITheme/icons/folder_closed.png",
 			"layer0.tint": "var(sidebar_folder_icon_tint-collapsed-dark)",
 			"layer0.opacity": "var(sidebar_icon_opacity-normal)"
 		},
@@ -2766,7 +2766,7 @@
 				{"class": "tree_row", "attributes": ["expanded"]}
 			],
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/folder_opened.png",
+			"layer0.texture": "feppz!/UITheme/icons/folder_opened.png",
 			"layer0.tint": "var(sidebar_folder_icon_tint-expanded-dark)",
 			"layer0.opacity": "var(sidebar_icon_opacity-normal)"
 		},
@@ -2840,35 +2840,35 @@
 			"class": "icon_folder_loading",
 			"settings": ["show_sidebar_icons"],
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/folder_closed.png",
+			"layer0.texture": "feppz!/UITheme/icons/folder_closed.png",
 			"layer0.tint": "var(sidebar_folder_icon_tint-collapsed-dark)",
 			"layer0.opacity": "var(sidebar_icon_opacity-normal)",
 			"layer1.texture": {
 				"keyframes": [
-					"Theme - DAneo/icons/folder_loading_01.png",
-					"Theme - DAneo/icons/folder_loading_02.png",
-					"Theme - DAneo/icons/folder_loading_03.png",
-					"Theme - DAneo/icons/folder_loading_04.png",
-					"Theme - DAneo/icons/folder_loading_05.png",
-					"Theme - DAneo/icons/folder_loading_06.png",
-					"Theme - DAneo/icons/folder_loading_07.png",
-					"Theme - DAneo/icons/folder_loading_08.png",
-					"Theme - DAneo/icons/folder_loading_09.png",
-					"Theme - DAneo/icons/folder_loading_10.png",
-					"Theme - DAneo/icons/folder_loading_11.png",
-					"Theme - DAneo/icons/folder_loading_12.png",
-					"Theme - DAneo/icons/folder_loading_13.png",
-					"Theme - DAneo/icons/folder_loading_14.png",
-					"Theme - DAneo/icons/folder_loading_15.png",
-					"Theme - DAneo/icons/folder_loading_16.png",
-					"Theme - DAneo/icons/folder_loading_17.png",
-					"Theme - DAneo/icons/folder_loading_18.png",
-					"Theme - DAneo/icons/folder_loading_19.png",
-					"Theme - DAneo/icons/folder_loading_20.png",
-					"Theme - DAneo/icons/folder_loading_21.png",
-					"Theme - DAneo/icons/folder_loading_22.png",
-					"Theme - DAneo/icons/folder_loading_23.png",
-					"Theme - DAneo/icons/folder_loading_24.png"
+					"feppz!/UITheme/icons/folder_loading_01.png",
+					"feppz!/UITheme/icons/folder_loading_02.png",
+					"feppz!/UITheme/icons/folder_loading_03.png",
+					"feppz!/UITheme/icons/folder_loading_04.png",
+					"feppz!/UITheme/icons/folder_loading_05.png",
+					"feppz!/UITheme/icons/folder_loading_06.png",
+					"feppz!/UITheme/icons/folder_loading_07.png",
+					"feppz!/UITheme/icons/folder_loading_08.png",
+					"feppz!/UITheme/icons/folder_loading_09.png",
+					"feppz!/UITheme/icons/folder_loading_10.png",
+					"feppz!/UITheme/icons/folder_loading_11.png",
+					"feppz!/UITheme/icons/folder_loading_12.png",
+					"feppz!/UITheme/icons/folder_loading_13.png",
+					"feppz!/UITheme/icons/folder_loading_14.png",
+					"feppz!/UITheme/icons/folder_loading_15.png",
+					"feppz!/UITheme/icons/folder_loading_16.png",
+					"feppz!/UITheme/icons/folder_loading_17.png",
+					"feppz!/UITheme/icons/folder_loading_18.png",
+					"feppz!/UITheme/icons/folder_loading_19.png",
+					"feppz!/UITheme/icons/folder_loading_20.png",
+					"feppz!/UITheme/icons/folder_loading_21.png",
+					"feppz!/UITheme/icons/folder_loading_22.png",
+					"feppz!/UITheme/icons/folder_loading_23.png",
+					"feppz!/UITheme/icons/folder_loading_24.png"
 				],
 				"loop": true,
 				"frame_time": 0.05
@@ -2929,10 +2929,10 @@
 			"class": "icon_folder_dup",
 			"settings": ["show_sidebar_icons"],
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/folder_closed.png",
+			"layer0.texture": "feppz!/UITheme/icons/folder_closed.png",
 			"layer0.tint": "var(sidebar_folder_icon_tint-collapsed-dark)",
 			"layer0.opacity": "var(sidebar_icon_opacity-normal)",
-			"layer1.texture": "Theme - DAneo/icons/folder_symlink.png",
+			"layer1.texture": "feppz!/UITheme/icons/folder_symlink.png",
 			"layer1.tint": "var(sidebar_folder_icon_overlay-dark)",
 			"layer1.opacity": "var(sidebar_icon_opacity-normal)"
 		},
@@ -2985,7 +2985,7 @@
 				{"class": "tree_row", "attributes": ["!expanded"]}
 			],
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/disclosure_collapsed.png",
+			"layer0.texture": "feppz!/UITheme/icons/disclosure_collapsed.png",
 			"layer0.tint": "var(sidebar_folder_icon_tint-collapsed-dark)",
 			"layer0.opacity": "var(sidebar_icon_opacity-normal)"
 		},
@@ -3006,7 +3006,7 @@
 				{"class": "tree_row", "attributes": ["expanded"]}
 			],
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/disclosure_expanded.png",
+			"layer0.texture": "feppz!/UITheme/icons/disclosure_expanded.png",
 			"layer0.tint": "var(sidebar_folder_icon_tint-expanded-dark)",
 			"layer0.opacity": "var(sidebar_icon_opacity-normal)"
 		},
@@ -3051,35 +3051,35 @@
 			"class": "icon_folder_loading",
 			"settings": ["show_disclosure_buttons", "align_disclosure_buttons"],
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/disclosure_collapsed.png",
+			"layer0.texture": "feppz!/UITheme/icons/disclosure_collapsed.png",
 			"layer0.tint": "var(sidebar_folder_icon_tint-collapsed-dark)",
 			"layer0.opacity": "var(sidebar_icon_opacity-normal)",
 			"layer1.texture": {
 				"keyframes": [
-					"Theme - DAneo/icons/folder_loading_01.png",
-					"Theme - DAneo/icons/folder_loading_02.png",
-					"Theme - DAneo/icons/folder_loading_03.png",
-					"Theme - DAneo/icons/folder_loading_04.png",
-					"Theme - DAneo/icons/folder_loading_05.png",
-					"Theme - DAneo/icons/folder_loading_06.png",
-					"Theme - DAneo/icons/folder_loading_07.png",
-					"Theme - DAneo/icons/folder_loading_08.png",
-					"Theme - DAneo/icons/folder_loading_09.png",
-					"Theme - DAneo/icons/folder_loading_10.png",
-					"Theme - DAneo/icons/folder_loading_11.png",
-					"Theme - DAneo/icons/folder_loading_12.png",
-					"Theme - DAneo/icons/folder_loading_13.png",
-					"Theme - DAneo/icons/folder_loading_14.png",
-					"Theme - DAneo/icons/folder_loading_15.png",
-					"Theme - DAneo/icons/folder_loading_16.png",
-					"Theme - DAneo/icons/folder_loading_17.png",
-					"Theme - DAneo/icons/folder_loading_18.png",
-					"Theme - DAneo/icons/folder_loading_19.png",
-					"Theme - DAneo/icons/folder_loading_20.png",
-					"Theme - DAneo/icons/folder_loading_21.png",
-					"Theme - DAneo/icons/folder_loading_22.png",
-					"Theme - DAneo/icons/folder_loading_23.png",
-					"Theme - DAneo/icons/folder_loading_24.png"
+					"feppz!/UITheme/icons/folder_loading_01.png",
+					"feppz!/UITheme/icons/folder_loading_02.png",
+					"feppz!/UITheme/icons/folder_loading_03.png",
+					"feppz!/UITheme/icons/folder_loading_04.png",
+					"feppz!/UITheme/icons/folder_loading_05.png",
+					"feppz!/UITheme/icons/folder_loading_06.png",
+					"feppz!/UITheme/icons/folder_loading_07.png",
+					"feppz!/UITheme/icons/folder_loading_08.png",
+					"feppz!/UITheme/icons/folder_loading_09.png",
+					"feppz!/UITheme/icons/folder_loading_10.png",
+					"feppz!/UITheme/icons/folder_loading_11.png",
+					"feppz!/UITheme/icons/folder_loading_12.png",
+					"feppz!/UITheme/icons/folder_loading_13.png",
+					"feppz!/UITheme/icons/folder_loading_14.png",
+					"feppz!/UITheme/icons/folder_loading_15.png",
+					"feppz!/UITheme/icons/folder_loading_16.png",
+					"feppz!/UITheme/icons/folder_loading_17.png",
+					"feppz!/UITheme/icons/folder_loading_18.png",
+					"feppz!/UITheme/icons/folder_loading_19.png",
+					"feppz!/UITheme/icons/folder_loading_20.png",
+					"feppz!/UITheme/icons/folder_loading_21.png",
+					"feppz!/UITheme/icons/folder_loading_22.png",
+					"feppz!/UITheme/icons/folder_loading_23.png",
+					"feppz!/UITheme/icons/folder_loading_24.png"
 				],
 				"loop": true,
 				"frame_time": 0.05
@@ -3131,10 +3131,10 @@
 			"class": "icon_folder_dup",
 			"settings": ["show_disclosure_buttons", "align_disclosure_buttons"],
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/disclosure_collapsed.png",
+			"layer0.texture": "feppz!/UITheme/icons/disclosure_collapsed.png",
 			"layer0.tint": "var(sidebar_folder_icon_tint-collapsed-dark)",
 			"layer0.opacity": "var(sidebar_icon_opacity-normal)",
-			"layer1.texture": "Theme - DAneo/icons/folder_symlink.png",
+			"layer1.texture": "feppz!/UITheme/icons/folder_symlink.png",
 			"layer1.tint": "var(sidebar_folder_icon_overlay-dark)",
 			"layer1.opacity": "var(sidebar_icon_opacity-normal)"
 		},
@@ -3245,7 +3245,7 @@
 			"settings": ["show_sidebar_vcs_badges"],
 			"parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/status_untracked.png",
+			"layer0.texture": "feppz!/UITheme/icons/status_untracked.png",
 			"layer0.tint": "var(vcs_untracked)",
 			"layer0.opacity": 1.0
 		},
@@ -3254,7 +3254,7 @@
 			"settings": ["show_sidebar_vcs_badges"],
 			"parents": [{"class": "file_system_entry", "attributes": ["!added", "!staged", "modified"]}],
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/status_modified.png",
+			"layer0.texture": "feppz!/UITheme/icons/status_modified.png",
 			"layer0.tint": "var(vcs_modified)",
 			"layer0.opacity": 1.0
 		},
@@ -3263,7 +3263,7 @@
 			"settings": ["show_sidebar_vcs_badges"],
 			"parents": [{"class": "file_system_entry", "attributes": ["added", "!modified"]}],
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/status_added.png",
+			"layer0.texture": "feppz!/UITheme/icons/status_added.png",
 			"layer0.tint": "var(vcs_added)",
 			"layer0.opacity": 1.0
 		},
@@ -3272,7 +3272,7 @@
 			"settings": ["show_sidebar_vcs_badges"],
 			"parents": [{"class": "file_system_entry", "attributes": ["added", "modified"]}],
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/status_added.png",
+			"layer0.texture": "feppz!/UITheme/icons/status_added.png",
 			"layer0.tint": "var(vcs_added_modified)",
 			"layer0.opacity": 1.0
 		},
@@ -3281,7 +3281,7 @@
 			"settings": ["show_sidebar_vcs_badges"],
 			"parents": [{"class": "file_system_entry", "attributes": ["staged", "!modified"]}],
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/status_staged.png",
+			"layer0.texture": "feppz!/UITheme/icons/status_staged.png",
 			"layer0.tint": "var(vcs_staged)",
 			"layer0.opacity": 1.0
 		},
@@ -3290,7 +3290,7 @@
 			"settings": ["show_sidebar_vcs_badges"],
 			"parents": [{"class": "file_system_entry", "attributes": ["staged", "modified"]}],
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/status_staged.png",
+			"layer0.texture": "feppz!/UITheme/icons/status_staged.png",
 			"layer0.tint": "var(vcs_staged_modified)",
 			"layer0.opacity": 1.0
 		},
@@ -3299,7 +3299,7 @@
 			"settings": ["show_sidebar_vcs_badges"],
 			"parents": [{"class": "file_system_entry", "attributes": ["deleted"]}],
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/status_deleted.png",
+			"layer0.texture": "feppz!/UITheme/icons/status_deleted.png",
 			"layer0.tint": "var(vcs_deleted)",
 			"layer0.opacity": 1.0
 		},
@@ -3308,7 +3308,7 @@
 			"settings": ["show_sidebar_vcs_badges"],
 			"parents": [{"class": "file_system_entry", "attributes": ["missing"]}],
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/status_modified.png",
+			"layer0.texture": "feppz!/UITheme/icons/status_modified.png",
 			"layer0.tint": "var(vcs_deleted)",
 			"layer0.opacity": 1.0
 		},
@@ -3317,7 +3317,7 @@
 			"settings": ["show_sidebar_vcs_badges"],
 			"parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
 			"content_margin": 6,
-			"layer0.texture": "Theme - DAneo/icons/status_unmerged.png",
+			"layer0.texture": "feppz!/UITheme/icons/status_unmerged.png",
 			"layer0.tint": "var(vcs_unmerged)",
 			"layer0.opacity": 1.0
 		},
@@ -3389,7 +3389,7 @@
 			"class": "tab_control",
 			"attributes": ["!selected"],
 			"tint_index": -1,
-			"layer0.texture": "Theme - DAneo/textures/tabs/tab--default--mb0--bw0--br0.png",
+			"layer0.texture": "feppz!/UITheme/textures/tabs/tab--default--mb0--bw0--br0.png",
 			"layer0.tint": "var(inactive_tab_bg-normal-dark)"
 		},
 		{
@@ -3423,7 +3423,7 @@
 			"class": "tab_control",
 			"attributes": ["selected"],
 			"tint_index": 0,
-			"layer0.texture": "Theme - DAneo/textures/tabs/tab--default--mb0--bw0--br0.png"
+			"layer0.texture": "feppz!/UITheme/textures/tabs/tab--default--mb0--bw0--br0.png"
 		},
 
 		// Tab (*) -> Modified Indicator (Clean)
@@ -3433,7 +3433,7 @@
 			"settings": ["highlight_modified_tabs"],
 			"layer3.draw_center": false,
 			"layer3.inner_margin": [4, 4],
-			"layer3.texture": "Theme - DAneo/textures/tabs/tab--default--overlined--mb0--bw1--br0.png",
+			"layer3.texture": "feppz!/UITheme/textures/tabs/tab--default--overlined--mb0--bw1--br0.png",
 			"layer3.opacity": 0.0
 		},
 
@@ -3563,7 +3563,7 @@
 			"class": "tab_close_button",
 			"settings": ["show_tab_close_buttons"],
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/close.png",
+			"layer0.texture": "feppz!/UITheme/icons/close.png",
 			"layer0.tint": "var(button_icon_tint-normal-dark)",
 			"layer0.opacity": "var(inactive_tab_close_opacity-clean)"
 		},
@@ -3584,7 +3584,7 @@
 			"parents": [
 				{"class": "tab_control", "attributes": ["dirty"]}
 			],
-			"layer0.texture": "Theme - DAneo/icons/dirty.png",
+			"layer0.texture": "feppz!/UITheme/icons/dirty.png",
 			"layer0.opacity": "var(inactive_tab_close_opacity-dirty)"
 		},
 
@@ -3605,7 +3605,7 @@
 			"class": "tab_close_button",
 			"settings": ["show_tab_close_buttons"],
 			"attributes": ["hover"],
-			"layer0.texture": "Theme - DAneo/icons/close.png",
+			"layer0.texture": "feppz!/UITheme/icons/close.png",
 			"layer0.tint": "var(button_icon_tint-hover-dark)",
 			"layer0.opacity": "var(inactive_tab_close_opacity-hover)"
 		},
@@ -3705,7 +3705,7 @@
 			"class": "show_tabs_dropdown_button",
 			"settings": ["show_tabs_dropdown_button"],
 			"content_margin": [17, 8],
-			"layer0.texture": "Theme - DAneo/icons/tab_dropdown.png",
+			"layer0.texture": "feppz!/UITheme/icons/tab_dropdown.png",
 			"layer0.tint": "var(button_icon_tint-normal-dark)",
 			"layer0.opacity": "var(button_icon_opacity-normal)"
 		},
@@ -3746,7 +3746,7 @@
 			"class": "scroll_tabs_left_button",
 			"settings": ["show_scroll_tabs_buttons"],
 			"content_margin": [14, 8],
-			"layer0.texture": "Theme - DAneo/icons/tab_scroll_left.png",
+			"layer0.texture": "feppz!/UITheme/icons/tab_scroll_left.png",
 			"layer0.tint": "var(button_icon_tint-normal-dark)",
 			"layer0.opacity": "var(button_icon_opacity-normal)"
 		},
@@ -3787,7 +3787,7 @@
 			"class": "scroll_tabs_right_button",
 			"settings": ["show_scroll_tabs_buttons"],
 			"content_margin": [14, 8],
-			"layer0.texture": "Theme - DAneo/icons/tab_scroll_right.png",
+			"layer0.texture": "feppz!/UITheme/icons/tab_scroll_right.png",
 			"layer0.tint": "var(button_icon_tint-normal-dark)",
 			"layer0.opacity": "var(button_icon_opacity-normal)"
 		},
@@ -3826,7 +3826,7 @@
 			"content_margin": [10, 8],
 			"layer0.draw_center": false,
 			"layer0.inner_margin": [0, 0, 16, 16],
-			"layer0.texture": "Theme - DAneo/icons/fold_closed.png",
+			"layer0.texture": "feppz!/UITheme/icons/fold_closed.png",
 			"layer0.tint": "var(fold_fg-collapsed-normal-dark)",
 			"layer0.opacity": "var(fold_opacity-normal)"
 		},
@@ -3864,7 +3864,7 @@
 			"content_margin": [10, 8],
 			"layer0.draw_center": false,
 			"layer0.inner_margin": [0, 0, 16, 16],
-			"layer0.texture": "Theme - DAneo/icons/fold_opened.png",
+			"layer0.texture": "feppz!/UITheme/icons/fold_opened.png",
 			"layer0.tint": "var(fold_fg-expanded-normal-dark)",
 			"layer0.opacity": "var(fold_opacity-normal)"
 		},
@@ -3937,10 +3937,10 @@
 			"class": "overlay_control",
 			"content_margin": [15, 16, 15, 31],
 			"layer0.inner_margin": [15, 10, 15, 25],
-			"layer0.texture": "Theme - DAneo/textures/overlay/overlay_shadow--mt0.png",
+			"layer0.texture": "feppz!/UITheme/textures/overlay/overlay_shadow--mt0.png",
 			"layer0.opacity": 1.0,
 			"layer1.inner_margin": [20, 15, 20, 30],
-			"layer1.texture": "Theme - DAneo/textures/overlay/overlay--mt10--bw0--br0.png",
+			"layer1.texture": "feppz!/UITheme/textures/overlay/overlay--mt10--bw0--br0.png",
 			"layer1.tint": "var(overlay_bg-dark)",
 			"layer1.opacity": 1.0
 		},
@@ -4351,7 +4351,7 @@
 		{
 			"class": "annotation_close_button",
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/close.png",
+			"layer0.texture": "feppz!/UITheme/icons/close.png",
 			"layer0.tint": "var(fg)",
 			"layer0.opacity": { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" }
 		},
@@ -4429,7 +4429,7 @@
 		{
 			"class": "icon_case",
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/icon_case.png",
+			"layer0.texture": "feppz!/UITheme/icons/icon_case.png",
 			"layer0.tint": "var(button_icon_tint-normal-dark)",
 			"layer0.opacity": "var(button_icon_opacity-normal)"
 		},
@@ -4478,7 +4478,7 @@
 		{
 			"class": "icon_context",
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/icon_context.png",
+			"layer0.texture": "feppz!/UITheme/icons/icon_context.png",
 			"layer0.tint": "var(button_icon_tint-normal-dark)",
 			"layer0.opacity": "var(button_icon_opacity-normal)"
 		},
@@ -4527,7 +4527,7 @@
 		{
 			"class": "icon_highlight",
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/icon_highlight.png",
+			"layer0.texture": "feppz!/UITheme/icons/icon_highlight.png",
 			"layer0.tint": "var(button_icon_tint-normal-dark)",
 			"layer0.opacity": "var(button_icon_opacity-normal)"
 		},
@@ -4576,7 +4576,7 @@
 		{
 			"class": "icon_in_selection",
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/icon_in_selection.png",
+			"layer0.texture": "feppz!/UITheme/icons/icon_in_selection.png",
 			"layer0.tint": "var(button_icon_tint-normal-dark)",
 			"layer0.opacity": "var(button_icon_opacity-normal)"
 		},
@@ -4625,7 +4625,7 @@
 		{
 			"class": "icon_preserve_case",
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/icon_preserve_case.png",
+			"layer0.texture": "feppz!/UITheme/icons/icon_preserve_case.png",
 			"layer0.tint": "var(button_icon_tint-normal-dark)",
 			"layer0.opacity": "var(button_icon_opacity-normal)"
 		},
@@ -4674,7 +4674,7 @@
 		{
 			"class": "icon_regex",
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/icon_regex.png",
+			"layer0.texture": "feppz!/UITheme/icons/icon_regex.png",
 			"layer0.tint": "var(button_icon_tint-normal-dark)",
 			"layer0.opacity": "var(button_icon_opacity-normal)"
 		},
@@ -4723,7 +4723,7 @@
 		{
 			"class": "icon_use_buffer",
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/icon_use_buffer.png",
+			"layer0.texture": "feppz!/UITheme/icons/icon_use_buffer.png",
 			"layer0.tint": "var(button_icon_tint-normal-dark)",
 			"layer0.opacity": "var(button_icon_opacity-normal)"
 		},
@@ -4772,7 +4772,7 @@
 		{
 			"class": "icon_whole_word",
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/icon_whole_word.png",
+			"layer0.texture": "feppz!/UITheme/icons/icon_whole_word.png",
 			"layer0.tint": "var(button_icon_tint-normal-dark)",
 			"layer0.opacity": "var(button_icon_opacity-normal)"
 		},
@@ -4821,7 +4821,7 @@
 		{
 			"class": "icon_wrap",
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/icon_wrap.png",
+			"layer0.texture": "feppz!/UITheme/icons/icon_wrap.png",
 			"layer0.tint": "var(button_icon_tint-normal-dark)",
 			"layer0.opacity": "var(button_icon_opacity-normal)"
 		},
@@ -4870,7 +4870,7 @@
 		{
 			"class": "icon_use_gitignore",
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/icon_use_gitignore.png",
+			"layer0.texture": "feppz!/UITheme/icons/icon_use_gitignore.png",
 			"layer0.tint": "var(button_icon_tint-normal-dark)",
 			"layer0.opacity": "var(button_icon_opacity-normal)"
 		},
@@ -4926,7 +4926,7 @@
 			"class": "panel_close_button",
 			"settings": ["show_panel_close_button"],
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/close.png",
+			"layer0.texture": "feppz!/UITheme/icons/close.png",
 			"layer0.tint": "var(button_icon_tint-normal-dark)",
 			"layer0.opacity": "var(button_icon_opacity-normal)"
 		},
@@ -4999,7 +4999,7 @@
 		{
 			"class": "sidebar_button_control",
 			"settings": ["show_sidebar_button"],
-			"layer0.texture": "Theme - DAneo/icons/sidebar_button.png",
+			"layer0.texture": "feppz!/UITheme/icons/sidebar_button.png",
 			"content_margin": [10, 11],
 			"layer0.tint": "var(button_icon_tint-normal-dark)",
 			"layer0.opacity": "var(button_icon_opacity-normal)"
@@ -5108,7 +5108,7 @@
 		{
 			"class": "vcs_branch_icon",
 			"content_margin": 8,
-			"layer0.texture": "Theme - DAneo/icons/branch.png",
+			"layer0.texture": "feppz!/UITheme/icons/branch.png",
 			"layer0.tint": "var(statusbar_button_fg-normal-dark)",
 			"layer0.opacity": 1.0
 		},
