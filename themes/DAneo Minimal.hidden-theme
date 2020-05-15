@@ -2,8 +2,12 @@
 	"extends": "DAneo Base.hidden-theme",
 	"variables": {
 
+		"bg_dark": "var(bg)",
 		"bg": "#2A2C36",
-		"bg_dark": "#272830",
+		
+
+		//"bg": "#2A2C36",
+		//"bg_dark": "#272830",
 
 	////// Tabs //////////////////////////////////////////////////////////////////
 
@@ -17,6 +21,14 @@
 
 		"overlay_input_tint-dark": "var(bg)",
 		"overlay_input_tint-light": "var(bg)",
+
+	////// Status Bar ////////////////////////////////////////////////////////////
+
+		"statusbar_bg-dark": "var(bg)",
+		"statusbar_bg-light": "var(bg)",
+
+		"statusbar_bc-dark": "var(sidebar_bc-dark)",
+		"statusbar_bc-light": "var(sidebar_bc-light)",
 
 	////// Panel Control /////////////////////////////////////////////////////////
 
@@ -86,12 +98,16 @@
 		{
 			"class": "scroll_track_control",
 			"attributes": ["!horizontal"],
-			"layer0.texture": "feppz!/UITheme/textures/scrollbars/scroll--w6--vertical--square.png"
+			"content_margin": 4,
+			"layer0.inner_margin": 4,
+			"layer0.texture": "feppz!/UITheme/textures/scrollbars/scroll--w10--vertical--rounded.png"
 		},
 		{
 			"class": "scroll_track_control",
 			"attributes": ["horizontal"],
-			"layer0.texture": "feppz!/UITheme/textures/scrollbars/scroll--w6--horizontal--square.png"
+			"content_margin": 4,
+			"layer0.inner_margin": 4,
+			"layer0.texture": "feppz!/UITheme/textures/scrollbars/scroll--w10--horizontal--rounded.png"
 		},
 
 		// Scroll Puck
@@ -99,12 +115,14 @@
 		{
 			"class": "puck_control",
 			"attributes": ["!horizontal"],
-			"layer0.texture": "feppz!/UITheme/textures/scrollbars/scroll--w6--vertical--square.png"
+			"layer0.inner_margin": 4,
+			"layer0.texture": "feppz!/UITheme/textures/scrollbars/scroll--w10--vertical--rounded.png"
 		},
 		{
 			"class": "puck_control",
 			"attributes": ["horizontal"],
-			"layer0.texture": "feppz!/UITheme/textures/scrollbars/scroll--w6--horizontal--square.png"
+			"layer0.inner_margin": 4,
+			"layer0.texture": "feppz!/UITheme/textures/scrollbars/scroll--w10--horizontal--rounded.png"
 		},
 
 	////// Side Bar //////////////////////////////////////////////////////////////

@@ -70,6 +70,7 @@
 
 		"statusbar_bc-dark": "var(sidebar_bc-dark)",
 		"statusbar_bc-light": "var(sidebar_bc-light)",
+		
 
 	////// Dialogs ///////////////////////////////////////////////////////////////
 

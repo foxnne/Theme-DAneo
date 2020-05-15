@@ -138,13 +138,13 @@
 		"scroll_track_fg-normal-light": "rgba(0, 0, 0, 0.2)",
 
 		"scroll_track_opacity-inactive": {
-				"target": 0.20, "speed": 1.12, "interpolation": "smoothstep"
+				"target": 0.00, "speed": 1.12, "interpolation": "smoothstep"
 			},
 		"scroll_track_opacity-active": {
-				"target": 0.25, "speed": 1.12, "interpolation": "smoothstep"
+				"target": 0.00, "speed": 1.12, "interpolation": "smoothstep"
 			},
 		"scroll_track_opacity-hover": {
-				"target": 0.25, "speed": 1.12, "interpolation": "smoothstep"
+				"target": 0.00, "speed": 1.12, "interpolation": "smoothstep"
 			},
 
 		// Scroll Puck Control
@@ -153,13 +153,13 @@
 		"scroll_puck_fg-normal-light": "rgba(0, 0, 0, 0.3)",
 
 		"scroll_puck_opacity-inactive": {
-				"target": 0.40, "speed": 1.12, "interpolation": "smoothstep"
+				"target": 0.00, "speed": 1.12, "interpolation": "smoothstep"
 			},
 		"scroll_puck_opacity-active": {
-				"target": 0.65, "speed": 1.12, "interpolation": "smoothstep"
+				"target": 0.40, "speed": 1.12, "interpolation": "smoothstep"
 			},
 		"scroll_puck_opacity-hover": {
-				"target": 1.00, "speed": 1.12, "interpolation": "smoothstep"
+				"target": 0.80, "speed": 1.12, "interpolation": "smoothstep"
 			},
 
 	////// Side Bar //////////////////////////////////////////////////////////////

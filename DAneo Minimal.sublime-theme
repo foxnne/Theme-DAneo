@@ -8,6 +8,12 @@
 		"font_size": 12,
 
 		"accent": "var(--accent)",
+		"gold": "#CEA37F",
+
+		"label_fg-hover-dark": "color(var(gold) blend(#000000 90%))",
+		"label_fg-selected-dark":        "var(gold)",
+		"label_fg-normal-dark":          "color(var(--foreground) blend(#000023 90%))",
+		"label_fg-selected-hover-dark":  "color(var(gold) blend(#000000 70%))",
 
 		// Version Control State Colors
 
@@ -30,24 +36,29 @@
 		"button_font_face": "var(font_face)",
 		"button_font_size": "var(font_size)",
 
+		"button_icon_tint-selected-dark": "var(gold)",
+
+
 	////// Side Bar //////////////////////////////////////////////////////////////
 
 		// Headings Text
 
 		"sidebar_heading_font_face": "var(font_face)",
 		"sidebar_heading_font_size": "var(font_size)",
-		"sidebar_heading_font_bold": false,
+		"sidebar_heading_font_bold": true,
 		"sidebar_heading_font_italic": false,
+
+		"sidebar_heading_fg-dark": "var(gold)",
 
 		// Tree Items Text
 
 		"sidebar_font_face": "var(font_face)",
 		"sidebar_font_size": "var(font_size)",
 
-		"sidebar_folder_icon_tint-collapsed-dark": "color(var(--fg) alpha(0.8))",
-		"sidebar_folder_icon_tint-collapsed-light": "var(--fg)",
-		"sidebar_folder_icon_tint-expanded-dark": "color(var(--fg) alpha(0.8))",
-		"sidebar_folder_icon_tint-expanded-light": "var(--fg)",
+		"sidebar_folder_icon_tint-collapsed-dark": "color(var(--background) blend(#000000 95%))",
+		"sidebar_folder_icon_tint-collapsed-light": "var(--foreground)",
+		"sidebar_folder_icon_tint-expanded-dark": "color(var(--foreground) blend(#000000 70%))",
+		"sidebar_folder_icon_tint-expanded-light": "var(--foreground)",
 
 	////// Tabs //////////////////////////////////////////////////////////////////
 
@@ -72,10 +83,17 @@
 		"tooltip_font_face": "var(font_face)",
 		"tooltip_font_size": "var(font_size)",
 
+		"tooltip_bg": "var(--background)",
+		"tooltip_bc": "#00000000",
+		"tooltip_fg": "var(--foreground)",
+
 	////// Status Bar ////////////////////////////////////////////////////////////
 
 		"statusbar_font_face": "var(font_face)",
 		"statusbar_font_size": "var(font_size)",
+		"statusbar_label_fg-normal-dark": "var(gold)",
+		"statusbar_button_fg-normal-dark": "var(gold)",
+		"statusbar_button_fg-hover-dark": "var(accent)",
 
 		// VCS annotation
 

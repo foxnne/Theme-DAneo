@@ -1,6 +1,6 @@
 {
 	// Controls whether to show the disclosure buttons in the sidebar
-	"show_disclosure_buttons": true,
+	"show_disclosure_buttons": false,
 
 	// Controls whether to align the disclosure buttons with the file icons.
 	// This setting has only effect if `show_disclosure_buttons` is true.
