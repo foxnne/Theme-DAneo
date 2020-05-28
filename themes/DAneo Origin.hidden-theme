@@ -57,12 +57,6 @@
 		"panel_bg-dark": "var(bg)",
 		"panel_bg-light": "var(bg)",
 
-		"panel_input_bc-dark": "color(white alpha(5%))",
-		"panel_input_bc-light": "color(black alpha(10%))",
-
-		"panel_output_tint-dark": "color(black alpha(5%))",
-		"panel_output_tint-light": "color(black alpha(7.5%))",
-
 	////// Status Bar ////////////////////////////////////////////////////////////
 
 		"statusbar_bg-dark": "var(bg)",

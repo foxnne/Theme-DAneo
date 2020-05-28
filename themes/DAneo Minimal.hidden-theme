@@ -2,12 +2,12 @@
 	"extends": "DAneo Base.hidden-theme",
 	"variables": {
 
-		"bg_dark": "var(bg)",
-		"bg": "#2A2C36",
+		//"bg_dark": "var(bg)",
+		//"bg": "#2A2C36",
 		
 
-		//"bg": "#2A2C36",
-		//"bg_dark": "#272830",
+		"bg": "#2A2C36",
+		"bg_dark": "#272830",
 
 	////// Tabs //////////////////////////////////////////////////////////////////
 
@@ -19,8 +19,8 @@
 		"overlay_bg-dark": "var(bg)",
 		"overlay_bg-light": "var(bg)",
 
-		"overlay_input_tint-dark": "var(bg)",
-		"overlay_input_tint-light": "var(bg)",
+		//"overlay_input_tint-dark": "var(bg_dark)",
+		//"overlay_input_tint-light": "var(bg)",
 
 	////// Status Bar ////////////////////////////////////////////////////////////
 
@@ -30,13 +30,14 @@
 		"statusbar_bc-dark": "var(sidebar_bc-dark)",
 		"statusbar_bc-light": "var(sidebar_bc-light)",
 
+
 	////// Panel Control /////////////////////////////////////////////////////////
 
-		"panel_bg-dark": "var(bg_dark)",
+		"panel_bg-dark": "var(bg)",
 		"panel_bg-light": "var(bg)",
 
-		"panel_input_tint-dark": "var(bg_dark)",
-		"panel_input_tint-light": "var(bg)"
+		//"panel_input_tint-dark": "var(bg)",
+		//"panel_input_tint-light": "var(bg)",
 	},
 
 	"rules": [
@@ -45,7 +46,8 @@
 
 		{
 			"class": "text_line_control",
-			"color_scheme_tint": "var(panel_input_tint-dark)"
+			"color_scheme_tint": "var(panel_input_tint-dark)",
+
 		},
 		{
 			"class": "text_line_control",
