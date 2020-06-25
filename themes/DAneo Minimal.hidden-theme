@@ -2,10 +2,6 @@
 	"extends": "DAneo Base.hidden-theme",
 	"variables": {
 
-		//"bg_dark": "var(bg)",
-		//"bg": "#2A2C36",
-		
-
 		"bg": "#2A2C36",
 		"bg_dark": "#272830",
 
@@ -19,8 +15,8 @@
 		"overlay_bg-dark": "var(bg)",
 		"overlay_bg-light": "var(bg)",
 
-		//"overlay_input_tint-dark": "var(bg_dark)",
-		//"overlay_input_tint-light": "var(bg)",
+		"overlay_input_tint-dark": "clear",
+		"overlay_input_tint-light": "clear",
 
 	////// Status Bar ////////////////////////////////////////////////////////////
 
@@ -36,8 +32,8 @@
 		"panel_bg-dark": "var(bg)",
 		"panel_bg-light": "var(bg)",
 
-		//"panel_input_tint-dark": "var(bg)",
-		//"panel_input_tint-light": "var(bg)",
+		"panel_input_tint-dark": "clear",
+		"panel_input_tint-light": "clear",
 	},
 
 	"rules": [
